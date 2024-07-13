@@ -1,0 +1,45 @@
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo__icon{
+    max-width: 32px;
+    margin-top: 34px;
+
+}
+
+
+.logo__title{
+    width: 254.84px;
+    height: 14.94px;
+    margin-top: 22.26px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .logo__icon{
+        width: calc(32px - (8.31 / 448) * (768px - 100vw));
+        height: calc(30.77px - (7 / 448) * (768px - 100vw));
+        margin-top: 30px;
+    }
+    .logo__title{
+        width: calc(254.84px - (66.22 / 448) * (768px - 100vw));
+        height: calc(14.09px - (2.99 / 448) * (768px - 100vw));
+        margin-top: 20.98px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .logo__icon{
+        width: 23.69px;
+        height: 23.77px;
+    }
+    .logo__title{
+        width: 188.62px;
+        height: 11.1px;
+    }
+}
