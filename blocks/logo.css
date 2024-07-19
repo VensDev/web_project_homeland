@@ -8,9 +8,8 @@
 .logo__icon{
     max-width: 32px;
     margin-top: 34px;
-
+ 
 }
-
 
 .logo__title{
     width: 254.84px;
@@ -18,20 +17,71 @@
     margin-top: 22.26px;
 
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
     .logo__icon{
-        width: calc(32px - (8.31 / 448) * (768px - 100vw));
-        height: calc(30.77px - (7 / 448) * (768px - 100vw));
+        width: 32px;
+        height: 31.5px;
         margin-top: 30px;
     }
     .logo__title{
-        width: calc(254.84px - (66.22 / 448) * (768px - 100vw));
-        height: calc(14.09px - (2.99 / 448) * (768px - 100vw));
-        margin-top: 20.98px;
+        width: 254.84px;
+        height: 14.59px;
+        margin-top: 21.98px;
     }
 }
 
+@media screen and (max-width: 999px) {
+    .logo__icon{
+        width: 32px;
+        height: 31px;
+        margin-top: 30px;
+    }
+    .logo__title{
+        width: 254.84px;
+        height: 14.59px;
+        margin-top: 20.98px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .logo__icon{
+        width: 32px;
+        height: 30.77px;
+        margin-top: 30px;
+    }
+    .logo__title{
+        width: 254.84px;
+        height: 14.09px;
+        margin-top: 20.98px;
+    }
+}
+@media screen and (max-width: 665px) {
+    .logo__icon{
+        width: 29px;
+        height: 29px;
+        margin-top: 30px;
+    }
+    .logo__title{
+        width: 232px;
+        height: 14.09px;
+        margin-top: 20.98px;
+    }
+
+}
+@media screen and (max-width: 470px) {
+    .logo__icon{
+        width: 26px;
+        height: 26px;
+        margin-top: 30px;
+    }
+    .logo__title{
+        width: 210px;
+        height: 14.09px;
+        margin-top: 20.98px;
+    }
+
+}
 @media screen and (max-width: 320px) {
     
     .logo__icon{

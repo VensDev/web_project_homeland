@@ -1,12 +1,12 @@
+
 .intro{
     display: flex;
     flex-direction: column;
-    max-width: 720px;
+    /* max-width: 720px; */
     margin-left: calc(148px - (124 / 512) * (1280px - 100vw));
     margin-right: calc(148px - (124 / 512) * (1280px - 100vw));
 
 }
-
 
 .intro__title{
     font-family: 'Inter bold';
@@ -24,6 +24,7 @@
     line-height: 34px;
     text-align: left;
     margin: 40px 0 0;
+    max-width: 720px;
 }
 
 .intro__artist{
@@ -32,6 +33,7 @@
     line-height: 34px;
     text-align: right;
     margin: 10px 0 0;
+    max-width: 720px;
 }
 
 .intro__paragraph{
@@ -41,6 +43,7 @@
     text-align: left;
     max-width: 722px;
     margin: 32px 10px 0 0;
+    max-width: 720px;
     
 }
 
