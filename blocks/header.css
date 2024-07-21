@@ -78,6 +78,9 @@
         margin: 25px 24px 0;
         
     }
+    .header__image{
+        box-shadow: 0px 10px 25px 0px #00000080;
+    }
 }
 @media screen and (max-width: 665px) {
     .header__title{
