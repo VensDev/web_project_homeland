@@ -1,15 +1,14 @@
-.destination-info{
-    max-width: 984px;   
+.destination__info{
+    max-width: 982px;
     display: grid;
     grid-template-areas: 
     "title authors"
     "img texts"
     "button texts"
     ". texts";
-    margin: 92px auto 0;
-    column-gap: 40px;
     row-gap: 48px;
-
+    column-gap: 40px;
+    margin: 92px auto 0;
 }
 .destination__title{
     grid-area: title;
@@ -30,22 +29,20 @@
 }
 
 .destination__button{
+    width: 355px;
+    height: 48px;
     grid-area: button;
     font-size: 18px;
     font-weight: 600;
     line-height: 21.78px;
     text-align: center;
-    max-width: 356px;
-    max-height: 48px;
-    padding: 13px 0;
-    margin: 0;
     color: #FFFFFF;
     border-radius: 4px;
     background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     cursor: pointer;
     transition: opacity 0.3s;
-
-   
+    padding: 13px 0;
+    margin: 0;
 
 }
 .destination__button:hover{
@@ -60,20 +57,17 @@
 
 .destination__author{
     font-size: 18px;
-    font-weight: 400;
     line-height: 22px;
     color: #AAAAAA;
-    margin: 0;
+    margin: 0 0 8px;
 }
 .destination__boss{
     font-size: 18px;
-    font-weight: 400;
     line-height: 22px;
     margin: 0;
 }
 .destination__manager{
     font-size: 18px;
-    font-weight: 400;
     line-height: 22px;
     margin: 0;
 }
@@ -96,4 +90,116 @@
     line-height: 29.34px;
     text-align: left;
     margin: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .destination__info{
+        column-gap: 36px;
+        margin-top: 90.5px;
+    }
+    .destination__title{
+        font-size: 62px;
+        line-height: 66px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .destination__info{
+        margin-top: 89.5px;
+        column-gap: 32px;
+        margin: 89.5px 24px 0;
+        
+    }
+    .destination__title{
+        font-size: 52px;
+        line-height: 56px;
+    }
+}
+
+
+/*   qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq */
+@media screen and (max-width: 768px) {
+    .destination__info{
+        max-width: 720px;
+        column-gap: 28px;
+        grid-template-columns: 340px 352px;
+        margin: 88px 24px 0;
+    }
+    .destination__title{
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .destination__author{
+        font-size: 12px;
+        line-height: 14.52px;
+        letter-spacing: 0.12em;
+    }
+    .destination__boss{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .destination__manager{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .destination__paragraph{
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+    .destination__description{
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+
+
+}
+
+@media screen and (max-width: 665px) {
+    .destination__info{
+        display: flex;
+        flex-direction: column;
+        row-gap: 36.67px;
+        margin: 62px 21.34px 0;
+    }
+    .destination__title{
+        font-size: 38.67px;
+        line-height: 42.33px;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    .destination__info{
+        display: flex;
+        flex-direction: column;
+        row-gap: 33.34px;
+        margin: 62px 18.68px 0;
+    }
+    .destination__title{
+        font-size: 35.34px;
+        line-height: 38.66px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .destination__info{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin: 62px 16px 0;
+    }
+    .destination__title{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .destination__button{
+        width: 288px;
+        height: 48px;
+        font-size: 14px;
+        line-height: 16.94px;
+  
+
+    }
+
+
 }
