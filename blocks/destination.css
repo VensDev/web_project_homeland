@@ -74,7 +74,7 @@
     margin: 0;
 }
 
-.destination__conteiner--description{
+.destination__conteiner-description{
     grid-area: texts;
     display: flex;
     flex-direction: column;
