@@ -55,7 +55,7 @@
     
 }
 
-.destination__conteiner__authors{
+.destination__conteiner-authors{
     grid-area: authors;
     text-align: left;
     margin: auto 0 0;
@@ -68,7 +68,7 @@
     margin: 0 0 8px;
 }
 
-.destination-author{
+.destination__author{
     font-size: 18px;
     line-height: 22px;
     margin: 0;
@@ -131,7 +131,7 @@
         line-height: 14.52px;
         letter-spacing: 0.12em;
     }
-    .destination-author{
+    .destination__author{
         font-size: 18px;
         line-height: 22px;
     }
@@ -218,7 +218,7 @@
         letter-spacing: 0.12em;
         margin: 0 16px;
     }
-    .destination-author{
+    .destination__author{
         font-size: 18px;
         line-height: 22px;
         margin: 0 16px;
