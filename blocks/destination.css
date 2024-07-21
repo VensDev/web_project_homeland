@@ -24,6 +24,13 @@
 .destination__image{
     grid-area: img;
     width: 100%;
+    box-shadow: 10px 10px 25px 0px #00000080;
+    cursor: pointer;
+    transition: opacity 0.3s;
+
+}
+.destination__image:hover{
+    opacity: 0.50;
 }
 
 .destination__button{
@@ -33,18 +40,19 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 21.78px;
+    padding: 13px 0;
     text-align: center;
     color: #FFFFFF;
     border-radius: 4px;
     background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     cursor: pointer;
-    transition: opacity 0.3s;
-    padding: 13px 0;
+    box-shadow: 5px 5px 10px 0px #00000040;
     margin: 0;
-
+    
 }
 .destination__button:hover{
-    opacity: 0.75;
+    background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+    
 }
 
 .destination__conteiner__authors{
@@ -60,7 +68,7 @@
     margin: 0 0 8px;
 }
 
-.destination__author{
+.destination-author{
     font-size: 18px;
     line-height: 22px;
     margin: 0;
@@ -123,7 +131,7 @@
         line-height: 14.52px;
         letter-spacing: 0.12em;
     }
-    .destination__author{
+    .destination-author{
         font-size: 18px;
         line-height: 22px;
     }
@@ -202,7 +210,7 @@
         letter-spacing: 0.12em;
         margin: 0 16px;
     }
-    .destination__author{
+    .destination-author{
         font-size: 18px;
         line-height: 22px;
         margin: 0 16px;
