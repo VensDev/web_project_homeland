@@ -27,8 +27,8 @@ Introdução
 .intro__paragraph: define o parágrafo e o tamanho da fonte.
 
 Galeria de Fotos
-.photo__grid: define o tamanho de todas as imagens e as mantém em grade.
-.grid__item: torna as imagens responsivas.
+.photo: define o tamanho de todas as imagens e as mantém em grade.
+.photo__item: torna as imagens responsivas.
 
 Destino
 .destination__info: define o tamanho máximo, organiza os itens em grade (grid area) e define as separações de colunas e linhas.
