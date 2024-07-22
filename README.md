@@ -1,4 +1,7 @@
 # Tripleten web_project_homeland
+O projeto "De Pátria para Pátria" exibido na galeria de arte Tripletein é uma jornada visual que conecta diferentes localidades ao redor do mundo, ilustrando a diversidade cultural e histórica de cada lugar. O projeto destaca quatro localidades: Criccieth no País de Gales, Berea nos EUA, Muramvya no Burundi e Lídice no Brasil.
+
+
 
 font.css: utilizado para armazenar e importar fontes para os arquivos CSS.
 
@@ -46,3 +49,4 @@ Rodapé
 .footer: o rodapé contém apenas o copyright.
 .footer__copyright: define o rodapé, o tamanho da fonte e o alinhamento. O @media screen ajusta para diversas resoluções.
 
+https://github.com/VensDev/web_project_homeland
