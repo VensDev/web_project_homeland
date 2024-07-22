@@ -49,4 +49,4 @@ Rodapé
 .footer: o rodapé contém apenas o copyright.
 .footer__copyright: define o rodapé, o tamanho da fonte e o alinhamento. O @media screen ajusta para diversas resoluções.
 
-https://github.com/VensDev/web_project_homeland
+https://vensdev.github.io/web_project_homeland/
